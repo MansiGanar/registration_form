@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+label {
+  padding: 15px 0;
+  display: inline-block;
+}
+
+input {
+  width:90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  margin: 10px  0;
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  }
+
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#1A2980, #26D0CE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div {
+  text-align: center;
+  /* margin-top: 50px; */
+  margin: auto;
+}
+
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px  ;
+  text-align: center;
+width: 500px;
+  margin-top: 50px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #26D0CE;
+  padding: 7px 15px;
+  /* margin: 10px 0 0 0; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a:hover, a:active {
+  background-color: #26D0CE;
+  color: white;
+}
+      
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0 auto;
+  }
+}
+p{
+  text-align: center;
+}
